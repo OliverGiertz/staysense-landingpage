@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>StaySense – Standort-Check fürs Vanlife</title>
+  <meta name="description" content="StaySense liefert dir Infos zu deinem aktuellen Standort – ohne App-Download, direkt im Browser. Öffnen, Lage checken, entspannter stehen." />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:title" content="StaySense – Standort-Check fürs Vanlife" />
+  <meta property="og:description" content="Infos zum aktuellen Standort. Immer und überall nutzbar. Spots-in-der-Nähe kommen 2026." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="de_DE" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#0b1220" />
+  <link rel="canonical" href="https://landing.staysense.vanityontour.de/" />
+  <link rel="icon" href="./assets/icon-sense.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#mainContent">Zum Inhalt springen</a>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="StaySense Start">
+        <span class="brand__mark">SS</span>
+        <span class="brand__name">StaySense</span>
+      </a>
+
+      <nav class="nav" aria-label="Hauptnavigation">
+        <a href="#features">Vorteile</a>
+        <a href="#how">So funktioniert's</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn btn--sm btn--primary" href="https://staysense.vanityontour.de" target="_blank" rel="noopener">Jetzt öffnen</a>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="navMobile">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="nav__mobile" id="navMobile" hidden>
+      <div class="container nav__mobileInner">
+        <a href="#features">Vorteile</a>
+        <a href="#how">So funktioniert's</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn btn--primary" href="https://staysense.vanityontour.de" target="_blank" rel="noopener">StaySense öffnen</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero" id="mainContent">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="badge">Browser-basiert • überall nutzbar • ohne Download</p>
+          <h1>Wissen, bevor du die Handbremse ziehst.</h1>
+          <p class="lead">
+            <strong>StaySense</strong> liefert dir Informationen zu deinem <strong>aktuellen Standort</strong> - damit du die Lage besser einschätzen kannst,
+            ohne Rätselraten, ohne App-Chaos, ohne "wird schon passen".
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="https://staysense.vanityontour.de" target="_blank" rel="noopener">StaySense jetzt nutzen</a>
+            <a class="btn btn--ghost" href="#how">Wie es funktioniert</a>
+          </div>
+
+          <div class="hero__meta">
+            <div class="kpi">
+              <div class="kpi__value">0</div>
+              <div class="kpi__label">Spots-Datenbank (bewusst nicht)</div>
+            </div>
+            <div class="kpi">
+              <div class="kpi__value">100%</div>
+              <div class="kpi__label">Fokus: aktueller Standort</div>
+            </div>
+            <div class="kpi">
+              <div class="kpi__value">2026</div>
+              <div class="kpi__label">"Spots in der Nähe" kommt</div>
+            </div>
+          </div>
+
+          <p class="fineprint">
+            Hinweis: StaySense ist eine Web-Anwendung unter
+            <a href="https://staysense.vanityontour.de" target="_blank" rel="noopener">staysense.vanityontour.de</a>.
+            Du kannst sie jederzeit im Browser öffnen.
+          </p>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <img src="./assets/hero-van.svg" alt="" width="800" height="650" decoding="async" />
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUST / PROBLEM -->
+    <section class="section section--muted">
+      <div class="container">
+        <div class="split">
+          <div>
+            <h2>Vanlife ist Freiheit - aber Unsicherheit fährt oft mit.</h2>
+            <p>
+              Du stehst irgendwo, es wird spät, und plötzlich kommen die Fragen:
+              <em>Darf ich hier? Wie sensibel ist die Umgebung? Konfliktpotenzial?</em>
+              StaySense ist dein digitaler Lage-Check: schnell, klar, praxisnah.
+            </p>
+          </div>
+          <div class="cards cards--2">
+            <div class="card">
+              <img class="icon" src="./assets/icon-location.svg" alt="" width="34" height="34" loading="lazy" decoding="async" />
+              <h3>Hier &amp; Jetzt</h3>
+              <p>Keine Jagd nach Koordinaten - sondern Einschätzung zum Ort, an dem du gerade bist.</p>
+            </div>
+            <div class="card">
+              <img class="icon" src="./assets/icon-browser.svg" alt="" width="34" height="34" loading="lazy" decoding="async" />
+              <h3>Im Browser</h3>
+              <p>Öffnen, nutzen, fertig. Kein Store, kein Update-Stress, kein "Welche App war das nochmal?"</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section__head">
+          <h2>Was dir StaySense bringt</h2>
+          <p class="muted">Konzentriert auf Anwendung und Nutzen - ohne Technik-Blabla.</p>
+        </div>
+
+        <div class="cards cards--3">
+          <div class="card">
+            <img class="icon" src="./assets/icon-shield.svg" alt="" width="34" height="34" loading="lazy" decoding="async" />
+            <h3>Weniger Stress</h3>
+            <p>Statt Bauchgefühl bekommst du Orientierung - und schläfst am Ende ruhiger.</p>
+          </div>
+          <div class="card">
+            <img class="icon" src="./assets/icon-sense.svg" alt="" width="34" height="34" loading="lazy" decoding="async" />
+            <h3>Mehr Einschätzung</h3>
+            <p>Du siehst Hinweise, die dir helfen, die Situation vor Ort besser einzuordnen.</p>
+          </div>
+          <div class="card">
+            <img class="icon" src="./assets/icon-leaf.svg" alt="" width="34" height="34" loading="lazy" decoding="async" />
+            <h3>Respektvoll stehen</h3>
+            <p>StaySense unterstützt dich dabei, sensibel zu handeln - für Orte, Anwohner und Community.</p>
+          </div>
+
+          <div class="card">
+            <img class="icon" src="./assets/icon-fast.svg" alt="" width="34" height="34" loading="lazy" decoding="async" />
+            <h3>Sofort startklar</h3>
+            <p>Link öffnen, Standort checken. Perfekt für "ich brauch jetzt eine Entscheidung".</p>
+          </div>
+          <div class="card">
+            <img class="icon" src="./assets/icon-world.svg" alt="" width="34" height="34" loading="lazy" decoding="async" />
+            <h3>Immer dabei</h3>
+            <p>Auf Handy, Tablet oder Laptop nutzbar - überall dort, wo du Browser + Empfang hast.</p>
+          </div>
+          <div class="card">
+            <img class="icon" src="./assets/icon-focus.svg" alt="" width="34" height="34" loading="lazy" decoding="async" />
+            <h3>Kein Overload</h3>
+            <p>Kein Kommentar-Sumpf. Kein Sternchen-Drama. Nur Informationen, die dir helfen sollen.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section section--muted" id="how">
+      <div class="container">
+        <div class="section__head">
+          <h2>So funktioniert StaySense</h2>
+          <p class="muted">Drei Schritte, keine Zauberei - nur praktische Hilfe.</p>
+        </div>
+
+        <ol class="steps">
+          <li class="step">
+            <div class="step__num">1</div>
+            <div class="step__body">
+              <h3>Website öffnen</h3>
+              <p>Ruf <a href="https://staysense.vanityontour.de" target="_blank" rel="noopener">staysense.vanityontour.de</a> auf - fertig.</p>
+            </div>
+          </li>
+          <li class="step">
+            <div class="step__num">2</div>
+            <div class="step__body">
+              <h3>Standort prüfen</h3>
+              <p>StaySense liefert dir Hinweise zur Umgebung und zur Situation am aktuellen Ort.</p>
+            </div>
+          </li>
+          <li class="step">
+            <div class="step__num">3</div>
+            <div class="step__body">
+              <h3>Entscheidung treffen</h3>
+              <p>Mit klarerem Kopf entscheiden: bleiben, weiterfahren oder Plan B.</p>
+            </div>
+          </li>
+        </ol>
+
+        <div class="callout">
+          <div class="callout__text">
+            <h3>"Spots in der Nähe" kommt noch dieses Jahr</h3>
+            <p>
+              Aktuell fokussiert StaySense die Standort-Analyse. Eine Nearby-Spot-Funktion ist geplant und wird 2026 ergänzt.
+              Bis dahin gilt: erst verstehen, dann entscheiden.
+            </p>
+          </div>
+          <div class="callout__art" aria-hidden="true">
+            <img src="./assets/roadmap.svg" alt="" width="640" height="420" loading="lazy" decoding="async" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOCIAL PROOF -->
+    <section class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Für wen ist StaySense?</h2>
+          <p class="muted">Kurzfassung: Für Camper mit gesundem Menschenverstand.</p>
+        </div>
+
+        <div class="cards cards--2">
+          <div class="card">
+            <h3>Einsteiger</h3>
+            <p>Wenn du noch nicht jeden Ort "lesen" kannst, hilft dir StaySense beim Einschätzen - ohne Overload.</p>
+          </div>
+          <div class="card">
+            <h3>Erfahrene Vanlifer</h3>
+            <p>Wenn du schnell Klarheit willst, statt durch 200 Kommentare zu scrollen.</p>
+          </div>
+        </div>
+
+        <div class="quote">
+          <p>"Ich wollte keine Spot-App. Ich wollte weniger Stress beim Stehen. Genau das macht StaySense."</p>
+          <span>- Nutzerstimme (Platzhalter)</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--muted" id="faq">
+      <div class="container">
+        <div class="section__head">
+          <h2>FAQ</h2>
+          <p class="muted">Die wichtigsten Fragen - kurz und ehrlich.</p>
+        </div>
+
+        <div class="faq">
+          <details>
+            <summary>Ist StaySense eine App?</summary>
+            <div class="faq__body">
+              <p>Praktisch ja - technisch ist es eine Web-Anwendung. Du nutzt sie direkt im Browser unter staysense.vanityontour.de.</p>
+            </div>
+          </details>
+
+          <details>
+            <summary>Zeigt StaySense Stellplätze/Spots?</summary>
+            <div class="faq__body">
+              <p>Aktuell nein. StaySense liefert Informationen zu deinem <strong>aktuellen Standort</strong>. Spots in der Nähe sind geplant und werden 2026 ergänzt.</p>
+            </div>
+          </details>
+
+          <details>
+            <summary>Brauche ich einen Account?</summary>
+            <div class="faq__body">
+              <p>Für den grundlegenden Standort-Check: nein (so bleibt's angenehm unkompliziert).</p>
+            </div>
+          </details>
+
+          <details>
+            <summary>Funktioniert das überall?</summary>
+            <div class="faq__body">
+              <p>Ja - überall, wo du einen Browser und eine Verbindung hast. Handy, Tablet oder Laptop.</p>
+            </div>
+          </details>
+
+          <details>
+            <summary>Ist das eine rechtliche Beratung?</summary>
+            <div class="faq__body">
+              <p>Nein. StaySense liefert Hinweise zur Einschätzung, ersetzt aber keine verbindliche Rechtsberatung oder Beschilderung vor Ort.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="container cta__inner">
+        <div>
+          <h2>Mach den Lage-Check, bevor du bleibst.</h2>
+          <p>Öffne StaySense im Browser - und entscheide entspannter.</p>
+        </div>
+        <div class="cta__actions">
+          <a class="btn btn--primary btn--lg" href="https://staysense.vanityontour.de" target="_blank" rel="noopener">Jetzt öffnen</a>
+          <a class="btn btn--ghost btn--lg" href="https://vanityontour.de" target="_blank" rel="noopener">Mehr von Vanity on Tour</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__left">
+        <div class="brand brand--footer">
+          <span class="brand__mark">SS</span>
+          <span class="brand__name">StaySense</span>
+        </div>
+        <p class="muted">
+          Web-Anwendung: <a href="https://staysense.vanityontour.de" target="_blank" rel="noopener">staysense.vanityontour.de</a><br>
+          Ein Projekt von <a href="https://vanityontour.de" target="_blank" rel="noopener">Vanity on Tour</a>.
+        </p>
+      </div>
+      <div class="footer__right">
+        <a href="#top">Nach oben ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>

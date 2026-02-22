@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Roadmap Illustration">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#7c5cff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#5eead4" stop-opacity="0.55"/>
+    </linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="520" rx="26" fill="#0b1220" opacity="0.55"/>
+  <path d="M60 380 C 180 280, 280 460, 410 360 C 540 260, 650 360, 740 260"
+        fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="10" stroke-linecap="round"/>
+
+  <g filter="url(#s)">
+    <circle cx="150" cy="320" r="22" fill="url(#g)"/>
+    <circle cx="150" cy="320" r="10" fill="#071022" opacity="0.9"/>
+    <text x="150" y="290" text-anchor="middle" font-family="Inter, system-ui, Arial" font-size="18" fill="#eaf0ff">Heute</text>
+
+    <circle cx="410" cy="360" r="22" fill="url(#g)"/>
+    <circle cx="410" cy="360" r="10" fill="#071022" opacity="0.9"/>
+    <text x="410" y="330" text-anchor="middle" font-family="Inter, system-ui, Arial" font-size="18" fill="#eaf0ff">Standort‑Check</text>
+
+    <circle cx="700" cy="290" r="22" fill="url(#g)"/>
+    <circle cx="700" cy="290" r="10" fill="#071022" opacity="0.9"/>
+    <text x="700" y="260" text-anchor="middle" font-family="Inter, system-ui, Arial" font-size="18" fill="#eaf0ff">2026</text>
+    <text x="700" y="235" text-anchor="middle" font-family="Inter, system-ui, Arial" font-size="14" fill="#8ea0bf">Spots in der Nähe</text>
+  </g>
+
+  <g transform="translate(70 70)">
+    <rect x="0" y="0" width="660" height="140" rx="24" fill="#0f1a2f" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="28" y="52" font-family="Inter, system-ui, Arial" font-size="26" fill="#eaf0ff" font-weight="700">Roadmap</text>
+    <text x="28" y="88" font-family="Inter, system-ui, Arial" font-size="16" fill="#d6e2ff">
+      Fokus bleibt: erst verstehen, dann entscheiden – Nearby‑Spots kommen als Ergänzung.
+    </text>
+    <rect x="28" y="104" width="240" height="10" rx="5" fill="#7c5cff" opacity="0.85"/>
+    <rect x="280" y="104" width="310" height="10" rx="5" fill="#eaf0ff" opacity="0.18"/>
+  </g>
+</svg>
